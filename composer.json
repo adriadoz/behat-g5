@@ -3,7 +3,8 @@
     "description": "El proyecto más chupi guay de la historia",
     "require": {
         "php": "^7.0",
-        "kevinlebrun/colors.php": "^1.0"
+        "kevinlebrun/colors.php": "^1.0",
+        "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
         "psr-4": {
