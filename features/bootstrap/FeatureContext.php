@@ -24,14 +24,10 @@ final class FeatureContext implements Context
         try {
             $this->lastResponse = $client->request($method, $uri);
             $this->lastStatusCode = $this->lastResponse->getStatusCode();
-
         } catch (GuzzleException $e) {
             $this->lastResponse   = $e->getTraceAsString();
             $this->lastStatusCode = $e->getCode();
-
         }
-
-
     }
 
     /**

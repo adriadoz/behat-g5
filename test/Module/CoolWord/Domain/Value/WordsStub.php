@@ -24,7 +24,6 @@ final class WordsStub
             WordStub::holiiiiii(),
             WordStub::besiis()
         );
-
     }
 
     public static function allWordNamesInMemory(): array
