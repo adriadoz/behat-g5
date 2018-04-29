@@ -19,7 +19,7 @@ final class FeatureContext implements Context
      */
     public function iDoARequestTo(string $method, string $uri)
     {
-        $client = new Client(['base_uri' => 'http://localhost:8080']);
+        $client = new Client(['base_uri' => 'http://localhost:8080/']);
 
         try {
             $this->lastResponse = $client->request($method, $uri);
