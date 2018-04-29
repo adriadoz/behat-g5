@@ -15,4 +15,4 @@ Para ejecutar el test de aceptación usar los siguientes comandos desde la raíz
 # Como usar
 Para ejecutar el proyecto sólo hay que hacer: `php chupi.php`, y ya tendrás tu palabra molona!
 
-Para usar la API ejecutar `php -S localhost:8080` y hacer get de `http://localhost/color.php` o `http://localhost/word.php` 
+Para usar la API ejecutar `php -S localhost:8080` y hacer get de `http://localhost:8080/color.php` o `http://localhost:8080/word.php` 
